@@ -6,5 +6,5 @@ echo "echo 3 > /proc/sys/vm/drop_caches && swapoff -a && swapon -a && printf '\n
 chmod 755 clearcache.sh
 
 ##Create an entry in crontab file using following command.
-# crontab -e
+crontab -e
 #0  2  *  *  *  /path/to/clearcache.sh
